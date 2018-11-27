@@ -1,0 +1,26 @@
+@import 'styles/_colors.scss';
+@import 'styles/_variables.scss';
+@import 'styles/_mixins.scss';
+
+.field-margin {
+  margin: 5px 0px !important;
+}
+
+.login-btn-container {
+  margin-top: 30px;
+  button {
+    height: 50px;
+  }
+}
+
+.login-form-container {
+  height: calc(100vh - 20vh);
+}
+
+.forget-password {
+  text-align: right;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+  @include text-setup($secondary, 12px, $font-family);
+}
